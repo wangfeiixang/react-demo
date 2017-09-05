@@ -1,0 +1,7 @@
+
+@import "./_mixin.scss";
+
+body{
+    background: blue;
+    @include blue-bg;
+}

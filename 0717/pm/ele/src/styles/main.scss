@@ -1,0 +1,46 @@
+
+
+.main-box{
+    header{
+        height: 3.25rem;
+        padding: .266667rem .373333rem;
+        background: linear-gradient(90deg,#0af,#0085ff);
+        position: relative;
+        p.info{
+            display: flex;
+            justify-content: space-between;
+           a,span{
+                color: #fff;
+                font-size: 0.5rem;
+            } 
+        }
+        
+        .search-inp{
+            display: block;
+            margin: .2rem 0;
+            width: 100%;
+            height: .96rem;
+            text-align: center;
+            border-radius: .96rem;
+            box-shadow: 0 0.026667rem 0.066667rem 0 rgba(0,0,0,.2);
+            color: #333;
+            font-size: .346667rem;
+            border: none;
+            outline: none;
+        }
+        
+        .swiper-slide{
+            padding: 0 20px;
+            width:auto;
+            color: #fff;
+        }
+
+        .hot-search{
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+        }
+        
+    }
+}

@@ -1,0 +1,13 @@
+
+
+flux
+
+view 产生一个操作（调用actions的方法）-》actions 创建一个action交给dispatcher（调用dispatcher的dispatch方法）-》dispacther判断动作之后调用store的方法-》store方法被调用会更改状态
+-》触发自己的事件来通知view-》view重新获取
+
+
+redux
+
+view 产生一个操作（调用actions的方法）-》actions 创建一个action交给reducer（调用store的dispatch方法）-》reducer判断动作之后返回一个新的数据-》store的subscribe方法会触发-》
+
+view重新获取数据

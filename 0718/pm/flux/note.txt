@@ -1,0 +1,38 @@
+
+1. es6 模块化   
+
+http://blog.csdn.net/kittyjie/article/details/50642558
+
+
+2.es6 编写 react
+
+   1.es6需要编译
+   
+   2.React.createClass()-> class Root extends React.Component{
+	   	constructor(props,context){
+	   		super(props,context)
+	   	}
+   }
+   
+   3.方法都可以写成   method(){}  不需要，
+   
+   4.方法内部的this不再指向实例，需要在用的时候bind一下
+   
+   5.设置属性：直接给类设置    Root.defaultProps={}
+   
+   6.设置状态：在constructor里设置   
+   	constructor(props,context){
+	   		super(props,context)
+	   		
+	   		this.state={
+	   			name:'allen'
+	   		}
+	   		
+	}
+	
+	
+	
+	
+	http://www.cnblogs.com/yongjz/p/5356914.html
+   
+

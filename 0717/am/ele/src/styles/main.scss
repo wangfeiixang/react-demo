@@ -1,0 +1,19 @@
+
+
+.main-box{
+    header{
+        height: 3.25rem;
+        padding: .266667rem .373333rem;
+        background: linear-gradient(90deg,#0af,#0085ff);
+        
+        p.info{
+            display: flex;
+            justify-content: space-between;
+           a,span{
+                color: #fff;
+                font-size: 0.5rem;
+            } 
+        }
+        
+    }
+}
